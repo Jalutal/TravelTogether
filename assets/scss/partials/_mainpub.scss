@@ -1,0 +1,80 @@
+.main_container_pub {
+    background-color: $main_bg_pub;
+    border-radius: $bradius_main;
+    margin: $marginAuto;
+    position: $main_container_position;
+}
+
+main .container {
+    margin-top: $main_container_align_top;    
+    color: $main_color;          
+}
+
+main img {
+    position: $main_img_position;
+    width: $main_img_width;
+    left: $main_img_align_left;
+    top: $main_img_align_top;
+}
+
+.row1 {    
+    padding-left: $row_padding_left;        
+    background-color: $main_bg_pub;
+    margin-bottom: $row1MarginBottom;
+    padding-bottom: $row1PaddingBottom;     
+}
+
+main h1 {
+    margin-bottom: $main_h1_margin_bottom;
+}
+
+.button {    
+    @include button;
+}
+
+.left {
+    padding-left: $row_padding_left;
+    padding-top: $row_padding_top;
+}
+
+.right {
+    padding-top: $row_padding_top;
+}
+
+.fa {
+    padding-bottom: $faPaddingBot;
+}
+
+.service_left {
+    @include images;
+}
+
+.service_right_up {    
+    @include images2;
+}
+.service_right_down {
+    @include images3;
+}
+
+.row2 {
+    color: $secondary_color;
+}
+
+.foot {
+    @include foot;
+}
+.foot h2 {
+    margin-bottom: $h2MarginBottom;
+}
+.cont_footer {
+    padding-bottom: $footerPadBot;    
+}
+.float_bottom {
+    position: $floatBotPos;
+}
+.get_touch_float {
+    @include touch_float;
+}
+.btn_foot {
+    @include btn_foot;
+}

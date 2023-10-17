@@ -1,0 +1,15 @@
+header {
+    background-color: $backgroundHeader;
+
+    a.nav-link {
+        color: $colorHeader;
+        white-space: $whiteSpace;
+    }
+    a.nav-link:hover {
+        color: $colorHoover;
+    }
+    .imgheader {
+        width: $imgFooterWidth;
+    }
+}
+

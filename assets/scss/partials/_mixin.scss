@@ -1,0 +1,84 @@
+@mixin button {
+    background-color: $main_color;
+    color: $secondary_color;
+    border: 1px solid $secondary_color;
+    border-radius: 5px;
+    width: 28%;
+    text-align: center;
+    box-shadow: 1px 1px 10px 2px;
+    margin-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 30px;
+    font-family: "Lato-Bold";
+}
+@mixin images {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)), url(../img/homme-assis-batiment.jpg);
+    background-color: $main_bg_pub;
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    border-radius: $bradius_main;
+    text-align: center;
+    box-shadow: 1px 1px 5px 1px $secondary_color;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+@mixin images2 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)), url(../img/passport.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: $main_bg_pub;
+    border-radius: $bradius_main;
+    height: 24.3vh;
+    text-align: center;
+    margin-bottom: 10px;
+    box-shadow: 1px 1px 5px 1px $secondary_color;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+@mixin images3 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)), url(../img/montgolfiere.jpg);
+    background-size: cover;
+    background-position: center;    
+    border-radius: $bradius_main;
+    height: 24.4vh;
+    text-align: center;
+    box-shadow: inset 0px 0px 20px $secondary_color;
+    box-shadow: 1px 1px 5px 1px $secondary_color;  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+@mixin foot {
+    background-image: url('../img/wave.svg');
+    background-size: cover;    
+    margin-top: 50px;
+    padding-bottom: 200px;
+    padding-top: 100px;
+}
+@mixin touch_float {
+    background-color: $main_bg_pub;
+    position: relative;
+    padding: 40px;
+    margin-top: -104px;
+    margin-bottom: -150px;
+    border-radius: 20px;
+    color: $main_color;
+    z-index: 2;
+}
+@mixin btn_foot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
