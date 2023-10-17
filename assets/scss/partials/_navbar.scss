@@ -5,9 +5,11 @@ header {
         color: $colorHeader;
         white-space: $whiteSpace;
     }
+
     a.nav-link:hover {
         color: $colorHoover;
     }
+    
     .imgheader {
         width: $imgFooterWidth;
     }

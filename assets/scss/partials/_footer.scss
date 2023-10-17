@@ -9,29 +9,37 @@ footer {
         color: $colorFooter;
         padding-top: $rowFooterPadTop;
     }
+
     a.nav-link {
         color: $colorFooter;
         white-space: $whiteSpace;
     }
+
     a.nav-link:hover {
         color: $colorHoover;
     }
+
     .imgfooter {
         width: $imgFooterWidth;
     }
+
     .cont_footer {
         color: $colorFooter;
     }
+
     .img {
         width: $imgWidth;
     }
+
     .img_white {
         background-color: $colorPrincipaleFooter;
     }
+
     .nav_bottom {
         border-bottom: $navBottom;
         padding-bottom: $paddingBottom;
     }
+    
     .last_foot {
         text-align: $textAlign;
     }

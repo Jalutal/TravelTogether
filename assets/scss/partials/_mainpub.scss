@@ -52,6 +52,7 @@ main h1 {
 .service_right_up {    
     @include images2;
 }
+
 .service_right_down {
     @include images3;
 }
@@ -63,18 +64,23 @@ main h1 {
 .foot {
     @include foot;
 }
+
 .foot h2 {
     margin-bottom: $h2MarginBottom;
 }
+
 .cont_footer {
     padding-bottom: $footerPadBot;    
 }
+
 .float_bottom {
     position: $floatBotPos;
 }
+
 .get_touch_float {
     @include touch_float;
 }
+
 .btn_foot {
     @include btn_foot;
 }
